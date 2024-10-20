@@ -1,0 +1,91 @@
+@font-face { 
+  font-family: Orbitron;
+  src: url('Orbitron-VariableFont_wght.ttf');
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+body {
+  font-family: "Orbitron";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#sidebar {
+  font-family: "Orbitron";
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 115px;
+  margin: 100px;
+  width: 450px;
+  height: 500px;
+  background-color: #0d0d0f;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0 0 50px 15px white;
+
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 0.5s ease; /* Smooth transition over 0.5s */
+  display: none;
+}
+#sidebar.show {
+  font-family: "Orbitron";
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 115px;
+  margin: 100px;
+  width: 450px;
+  height: 500px;
+  background-color: #0d0d0f;
+  border-style: solid;
+  border-color: lightsteelblue;
+  box-shadow: 0 0 10px 0.5px lightsteelblue;
+
+  opacity: 1; /* Full opacity */
+  display: block; /* When the sidebar is shown */
+}
+
+h2 {
+  font-family: "Orbitron";
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+}
+h3 {
+  font-family: "Orbitron";
+  font-size: 2rem;
+  color: white;
+}
+p {
+  font-family: "Orbitron";
+  font-size: 1.2rem;
+  color: white;
+}
+#exit-btn {
+  font-size: 3rem;
+  position: fixed;
+  left: 440px;
+  top: 530px;
+  margin: 50px;
+  width: 200px;
+  height: 100px;
+  background-color: #0d0d0f;
+  border-style: solid;
+  border-color: lightsteelblue;
+  box-shadow: 0 0 10px 0.5px lightsteelblue;
+}
+#exit-btn:hover {
+  border-color: white;
+  box-shadow: 0 0 0.5px 1px white;
+}
+#sidebar-header {
+  text-align: center;
+}
